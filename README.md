@@ -1,17 +1,17 @@
 # 特朗普语料文本结构化处理代码
 
-此目录于 2026-10-31 从现有研究材料中整理，保留代码、恢复线索和迁移记录，不保存批量原始语料或分析结果。没有升级、安装或修改 Conda 环境。
+本仓库保存特朗普语料、文本结构化处理代码和逐文件校验清单。既有 599 份 XML 保持原目录；大型原始与处理后语料存放在 Release 附件中。代码位于 `code/`；本地整理副本仅保留代码与迁移记录。
 
 ## 文件说明
 
 | 目录 | 内容与边界 |
 | --- | --- |
-| `quita_nltk/` | 已找到的 `quita.py` 源码，含 `QuitaText` 和 `getQuitaFeature`；使用 NLTK、NumPy、pandas。 |
-| `chinese_adaptation/` | 从特朗普组件改编的中文处理源码，用于参考结构；使用中文 spaCy 模型与 SnowNLP，不能直接当成英文原版运行。 |
-| `recovery_cache/` | 原英文组件及中文改编版留下的 Python 3.10/3.12 缓存，包括 `quita_spacy`、`quita_analyzer`；并非已经恢复的源码。 |
-| `factbase_legacy/` | 从旧 ZIP 提取的爬虫、清洗、分组、文本导出笔记本及辅助 Python/R 代码。笔记本输出已清空，原始版本在远端归档中。 |
-| `rally_legacy/` | 较早的清洗、Stanza 分句及 XML 结构化脚本和爬虫笔记本。 |
-| `migration/` | 迁移程序、文件清单、归档校验值与下载核验记录。 |
+| `code/quita_nltk/` | 已找到的 `quita.py` 源码，含 `QuitaText` 和 `getQuitaFeature`；使用 NLTK、NumPy、pandas。 |
+| `code/chinese_adaptation/` | 从特朗普组件改编的中文处理源码，用于参考结构；使用中文 spaCy 模型与 SnowNLP，不能直接当成英文原版运行。 |
+| `code/recovery_cache/` | 原英文组件及中文改编版留下的 Python 3.10/3.12 缓存，包括 `quita_spacy`、`quita_analyzer`；并非已经恢复的源码。 |
+| `code/factbase_legacy/` | 从旧 ZIP 提取的爬虫、清洗、分组、文本导出笔记本及辅助 Python/R 代码。笔记本输出已清空，原始版本在远端归档中。 |
+| `code/rally_legacy/` | 较早的清洗、Stanza 分句及 XML 结构化脚本和爬虫笔记本。 |
+| `migration/` | 逐文件清单、归档校验值与下载核验记录；操作脚本仅保留在本地。 |
 
 ## 语料存放位置
 

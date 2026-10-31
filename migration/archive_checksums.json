@@ -1,0 +1,20 @@
+[
+  {
+    "name": "trump-factbase-original.zip",
+    "bytes": 209218333,
+    "sha256": "b47cfc82c2c5fd9352088f19c98a71af8450387170179d93cc0333a5f51f919d",
+    "file_count": 16921
+  },
+  {
+    "name": "trump-rally-original-and-derived.zip",
+    "bytes": 24327754,
+    "sha256": "d67d587d16f45ffb7dd902259eee1ce250d2da523811813858b6dba1696ba832",
+    "file_count": 886
+  },
+  {
+    "name": "trump-annotated-xml.zip",
+    "bytes": 127103827,
+    "sha256": "d56cb664351ddf93359f424fb9553e7cdc9d1f98800e6f03241015486d927aaf",
+    "file_count": 599
+  }
+]
